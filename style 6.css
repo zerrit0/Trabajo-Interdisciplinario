@@ -1,0 +1,77 @@
+
+body {
+  background-color: #E60012;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+p {
+  color: #CCCCCC;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+/* Estructura de las tablas */
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #1a1a1c;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  border: 1px solid #2a2a2d;
+}
+
+/* Encabezado de las tablas (Rojo Carmesí) */
+th {
+  background-color: #b48989;
+  color: #ffffff;
+  padding: 16px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #885b64;
+}
+
+/* Celdas del cuerpo */
+td {
+  padding: 14px 20px;
+  color: #e0e0e0;
+  text-align: center;
+  border-bottom: 1px solid #28282b;
+  font-size: 0.95rem;
+}
+
+/* Filas alternadas para mejor lectura */
+tbody tr:nth-child(even) {
+  background-color: #141416;
+}
+
+/* Efecto al pasar el mouse por una fila */
+tbody tr:hover {
+  background-color: #252529;
+  transition: background-color 0.2s ease;
+}
+
+/* Quita el borde inferior a la última fila */
+tbody tr:last-child td {
+  border-bottom: none;
+}
